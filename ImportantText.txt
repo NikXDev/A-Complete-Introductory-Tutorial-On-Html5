@@ -1,0 +1,20 @@
+Shift + Tab ----> unindent, constrict space
+
+Tab         ----> indent, create space
+
+Ctrl + /    ----> shortcut for comment { <!-- *** --> } 
+
+.png can have transparent background
+.jpeg has background and can mask ur text
+
+To change the folder to access images put ..
+eg., <img src="../Images/Bird.jpg" height=100 />
+LOCATION : 
+desktop --> Images   --> jpg files
+            Web Page --> index.html
+          
+The .svg is used vastly because it doesnt blur even if zoomed.       
+
+ctrl + mouse ----> for cursering at various places at once
+
+mailchimp.com ----> form templates

@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Customize Html Workflow</title>
+
+   <!--This portion of code is from highlight.org useful for writing blogs-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.0/highlight.min.js"></script>
+    
+   <!--This portion is from mathjax.org for writing mathematical equations-->
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+</head>
+<body>
+    <pre>
+        <code class="language-html">Here's a syntax highlighted text</code>
+    </pre>
+
+    <pre><code class="language-css">
+            body{
+                backgroung-color: blue;
+                font-family: 'Comic Sans', sans=serif;
+            }
+        </code></pre>
+    
+    <p>
+        This is the folowing equation: $$ \frac 12 $$
+        <br/>
+        This is a quadratic equation: \(\frac{-b\pm\sqrt{b^2-4ac}} {2a} \)
+    </p>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>

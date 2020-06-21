@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Introduction to Forms</title>
+    </head>
+    <body>
+        <h3>Form Basics</h3>
+        <form onsubmit="alert('Form Is Being Submitted')">
+        <input type="text" placeholder="Search"/>
+        <input type="submit" value="Search"/></form>
+        
+        <button onclick="console.log('Useless Button...!!!'">Press Me</button>
+        
+        <h3>Intermediate Forms</h3>
+        <form>
+        <textarea></textarea>
+        <select>
+            <option>Shworma</option>
+            <option>Franky</option>
+            <option>Chicken Wings</option>
+            <option>Wada Pav</option>
+            <option>Samosa</option>
+            <option>Pani Puri</option>
+            <option>Dabeli</option>
+        </select>
+        </form>
+        
+        <p>Select Your Favorite Fast Food</p>
+        <form>
+            <input id="Shworma" type="radio"/>
+            <label for="Shworma">Shworma</label>
+            <br/>
+            <input id="Franky" type="radio"/>
+            <label for="Franky">Franky</label>
+            <br/>
+            <input id="Chick" type="radio"/>
+            <label for="Chick">Chicken Wings</label>
+            <br/>
+            <input id="Wada Pav" type="radio"/>
+            <label for="Pav">Wada Pav</label>
+            <br/>
+            <input id="Samosa" type="radio"/>
+            <label for="Samosa">Samosa</label>
+            <br/>
+            <input id="Pani Puri" type="radio"/>
+            <label for="Pani Puri">Pani Puri</label>
+            <br/>
+            <input id="Dabeli" type="radio"/>
+            <label for="Dabeli">Dabeli</label>
+            <br/>
+            <input type="submit" value="Submit" aria-describedby=""/>
+        </form>
+        
+        <h3>Form Input Types</h3>
+    <form>
+        <label>Text Input<input type="text"></label><br>
+
+       <label>Date Input<input type="date"></label>
+        <br>
+
+       <label>Email Input<input type="email"></label><br>
+
+       <label>Password Input<input type="password"></label><br>
+
+
+       <label>Time Input<input type="time"></label>  <br>
+
+
+       <label>URl Input<input type="url"></label>    <br>
+
+
+       <label>Color Input<input type="color"></label><br>
+
+        <input list="city">
+        <datalist id="city">
+            <option value="Mumbai">M</option>
+            <option value="Hyderabad">H</option>
+            <option value="Kolkata">K</option>
+            <option value="Nainital">N</option>
+        </datalist>
+    </form>        
+    </body>
+</html>
